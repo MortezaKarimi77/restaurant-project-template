@@ -18,5 +18,6 @@ This is a simple website template for a restaurant, built using HTML, CSS, W3.js
 - [Font Awesome 5](https://fontawesome.com/): An icon library for including icons in your project.
 
 Below: A short video from the template
+
 https://github.com/MortezaKarimi77/restaurant-project-template/assets/119794114/de9e699b-4e5b-461e-8666-66827aef5ab4
 
