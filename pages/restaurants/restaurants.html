@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+
+<head>
+  <link rel="stylesheet" href="../../base/utilities.css" />
+  <link rel="stylesheet" href="../../base/base.css" />
+  <link rel="stylesheet" href="../../base/icons.css" />
+  <link rel="stylesheet" href="restaurants.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>همه رستوران‌ها</title>
+</head>
+
+<body class="bg-light">
+  <div class="outerwrap">
+    <nav>
+      <div class="container">
+        <i class="fas fa-bars py1" id="toggle" onclick="
+          w3.toggleClass('#toggle', 'fas fa-bars', 'fas fa-times');
+          w3.toggleFlex('#navbar')">
+        </i>
+
+        <div id="navbar">
+          <div class="menu">
+            <a href="../home/home.html" class="menu-item"><i class="fas fa-home"></i> صفحه اصلی</a>
+            <a href="../login/login.html" class="menu-item"><i class="fas fa-sign-in-alt"></i> ورود</a>
+            <a href="../signup/signup.html" class="menu-item"><i class="fas fa-user-plus"></i> ثبت نام</a>
+          </div>
+          <h1 class="logo">
+            <a href="../home/home.html">بوفه <i class="fas fa-utensils"></i></a>
+          </h1>
+        </div>
+      </div>
+    </nav>
+
+    <div class="innerwrap">
+      <span id="top"></span>
+
+      <main class="container p2">
+        <section>
+          <div>
+            <form action="" class="search-form">
+              <input type="text" placeholder="جستجوی رستوان یا غذا..." name="search" />
+              <button type="submit" class="btn">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <div class="py1"></div>
+        <section id="popular-restaurants">
+          <h2 class="text-primary bigger-text p1">همه رستوران‌ها</h2>
+
+          <div class="gallery-images">
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-01.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دریایی
+                        اعظم
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-02.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دانته
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-03.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران باکس
+                        کلاسیک
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-01.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دریایی
+                        اعظم
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-02.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دانته
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-03.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران باکس
+                        کلاسیک
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-01.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دریایی
+                        اعظم
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-02.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دانته
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-03.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران باکس
+                        کلاسیک
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-01.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دریایی
+                        اعظم
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-02.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دانته
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-03.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران باکس
+                        کلاسیک
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-01.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دریایی
+                        اعظم
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-02.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران دانته
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <a href=""><img src="../../images and videos/restaurants/restaurant-03.jpg" alt="" /></a>
+              <div class="description">
+                <div class="caption">
+                  <div class="titl">
+                    <a href="">
+                      <h2>
+                        <i class="fas fa-drumstick-bite"></i> رستوران باکس
+                        کلاسیک
+                      </h2>
+                    </a>
+                  </div>
+                  <div class="likes">
+                    <h2>
+                      <span>۳۰۰</span>
+                      <i class="far fa-heart" onclick="w3.toggleClass(this, 'far fa-heart', 'fa fa-heart');"></i>
+                    </h2>
+                  </div>
+                </div>
+                <a href="">
+                  <div class="address">
+                    <h2><i class="fas fa-map-marker-alt"></i> تجریش</h2>
+                  </div>
+                  <div class="time">
+                    <h2><i class="fas fa-hourglass"></i> ۲۰ الی ۶۰ دقیقه</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="pagination">
+        <div>
+          <a href="#">&laquo;</a>
+          <a href="#">۱</a>
+          <a class="active" href="#">۲</a>
+          <a href="#">۳</a>
+          <a href="#">۴</a>
+          <a href="#">۵</a>
+          <a href="#">۶</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+      <div class="py2"></div>
+
+      <footer>
+        <div class="copy container">
+          <h2 class="py3">بوفه &copy; ۲۰۲۱</h2>
+          <hr />
+        </div>
+
+        <div class="container footer-items py3">
+          <div class="footer-links">
+            <a href="#" class="footer-link p1"><i class="fas fa-balance-scale"></i> قوانین و مقررات</a>
+            <a href="../questions/questions.html" class="footer-link p1"><i class="fas fa-question-circle"></i> سوالات
+              متداول</a>
+            <a href="../contatct/Contatct.html" class="footer-link p1"><i class="fas fa-phone"></i> تماس با ما</a>
+            <a href="../about/about.html" class="footer-link p1"><i class="fas fa-info-circle"></i> درباره ما</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-blog"></i> بلاگ</a>
+          </div>
+
+          <div class="socila-media">
+            <a href="#" class="p1"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-telegram fa-2x"></i></a>
+
+            <div class="dl-links">
+              <a href=""><img src="../../images and videos/apps/label-app-android.png" alt="" /></a>
+              <a href=""><img src="../../images and videos/apps/label-app-ios-sibche.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <a href="#top" id="back-to-top"><i class="fas fa-chevron-up fa-2x"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <script src="../../base/base.js"></script>
+</body>
+
+</html>

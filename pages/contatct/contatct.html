@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+  <link rel="stylesheet" href="../../base/utilities.css">
+  <link rel="stylesheet" href="../../base/base.css">
+  <link rel="stylesheet" href="../../base/icons.css">
+  <link rel="stylesheet" href="contatct.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تماس با ما</title>
+</head>
+<body class="bg-light">
+  <div class="outerwrap">
+    <nav>
+      <div class="container">
+        <i class="fas fa-bars py1" id="toggle" onclick="
+          w3.toggleClass('#toggle', 'fas fa-bars', 'fas fa-times');
+          w3.toggleFlex('#navbar')">
+        </i>
+  
+        <div id="navbar">
+          <div class="menu">
+            <a href="../home/home.html" class="menu-item"><i class="fas fa-home"></i> صفحه اصلی</a>
+            <a href="../login/login.html" class="menu-item"><i class="fas fa-sign-in-alt"></i> ورود</a>
+            <a href="../signup/signup.html" class="menu-item"><i class="fas fa-user-plus"></i> ثبت نام</a>
+          </div>
+          <h1 class="logo"><a href="../home/home.html">بوفه <i class="fas fa-utensils"></i></a></h1>
+        </div>    
+      </div>
+    </nav>
+
+    <div class="innerwrap">
+      <span id="top"></span>
+
+      <section id="contact-form" class="container">
+        <div class="py3">
+          <div class="contact-heading">
+            <h1 class="bigger-heading text-primary"><span class="text-secondary">تماس با</span> بوفه</h1>
+            <p class="bigger-text">لطفا فرم زیر را برای تماس با بوفه پر کنید</p>
+          </div>
+    
+          <form action="" class="contact-form py3">
+            <label for="fullname"><i class="fas fa-user-circle"></i> نام و نام خانوادگی</label>
+            <input type="text" id="fullname">
+            <label for="email"><i class="fas fa-envelope"></i> پست الکترونیک</label>
+            <input type="email" id="email">
+            <label for="phone"><i class="fas fa-phone"></i> شماره تلفن</label>
+            <input type="tel" id="phone">
+            <label for="message"><i class="fas fa-comment"></i> متن پیام</label>
+            <textarea name="" id="message"></textarea>
+            <input type="submit" class="btn" id="send" value="ارسال">
+          </form>
+
+        </div>
+      </section>
+    
+      <section id="contact-info" class="container">
+        <div class="box bg-dark">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>آدرس</h3>
+          <p>شهر ممنوعه، دامنه کوه تاریکی، کنار رودخانه باد</p>
+        </div>
+    
+        <div class="box bg-primary">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>شماره تلفن</h3>
+          <p>33512874</p>
+        </div>
+    
+        <div class="box bg-dark">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>پست الکترونیک</h3>
+          <p>boofeh@info.com</p>
+        </div>
+      </section>
+          
+      <footer>
+        <div class="copy container">
+          <h2 class="py3">بوفه &copy; ۲۰۲۱</h2>
+          <hr>
+        </div>
+  
+        <div class="container footer-items py3">
+          <div class="footer-links">
+            <a href="#" class="footer-link p1"><i class="fas fa-balance-scale"></i> قوانین و مقررات</a>
+            <a href="../questions/questions.html" class="footer-link p1"><i class="fas fa-question-circle"></i> سوالات متداول</a>
+            <a href="contatct.html" class="footer-link p1 current"><i class="fas fa-phone"></i> تماس با ما</a>
+            <a href="../about/about.html" class="footer-link p1"><i class="fas fa-info-circle"></i> درباره ما</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-blog"></i> بلاگ</a>
+          </div>
+  
+          <div class="socila-media">
+            <a href="#" class="p1"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-telegram fa-2x"></i></a>
+
+            <div class="dl-links">
+              <a href=""><img src="../../images and videos/apps/label-app-android.png" alt=""></a>
+              <a href=""><img src="../../images and videos/apps/label-app-ios-sibche.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <a href="#top" id="back-to-top"><i class="fas fa-chevron-up fa-2x"></i></a>
+      </footer>  
+    </div>
+  </div>
+
+  <script src="../../base/base.js"></script>
+</body>
+</html>

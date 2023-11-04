@@ -1,0 +1,45 @@
+/* login */
+.login-form > *, .login-heading {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.forgot-password a {
+  display: block;
+  text-align: center;
+}
+
+.login-form label {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.login-form label i {
+  font-size: 2rem;
+}
+
+.login-form input:not(.btn) {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: .1rem solid rgba(128, 128, 128, 0.3);
+  border-radius: 1rem;
+}
+
+.login-form .btn {
+  margin-top: 1rem;
+}
+
+.login-form input:not(.btn):focus {
+  outline: none;
+  box-shadow: 0 0 0 .2rem orange;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  /* login */
+  .login-form > *, .login-heading {
+    width: 100%;
+  }  
+}

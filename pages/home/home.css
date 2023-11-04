@@ -1,0 +1,79 @@
+/* showcase */
+header {
+  position: relative;
+}
+
+#showcase {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+#showcase-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 2rem;
+}
+
+#showcase-overlay h1 {
+  padding: 1rem;
+  font-size: 5rem;
+  text-align: center;
+  border-bottom: 3px solid white;
+  pointer-events: none;
+}
+
+/* popular foods & restaurants*/
+#popular-foods, #popular-restaurants {
+  border-top: #333 3px solid;
+  border-bottom: orange 3px solid;
+}
+
+/* about */
+#about-content {
+  text-align: center;
+}
+#about-content h2 {
+  font-size: 2.4rem;
+}
+
+#about-content h3 {
+  font-size: 2rem;
+}
+
+#about-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* enamand */
+.enamad img {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  /* showcase */
+  #showcase-overlay h1 {
+    font-size: 2rem;
+    border: none;
+  }
+
+  /* about */
+  #about-info {
+    flex-direction: column;
+  }
+}

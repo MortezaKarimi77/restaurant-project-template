@@ -1,0 +1,73 @@
+/* all restaurants*/
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  border-right: .4rem solid orange;
+  border-top: .4rem solid #333;
+}
+
+.gallery-item {
+  margin: 1rem;
+  background-color: orange;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 0 1rem .2rem rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item img
+{
+  display: block;
+  object-fit: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.gallery-item a {
+  color: #333;
+}
+
+.gallery-item .description {
+  padding: 1rem;
+}
+
+.description h2 {
+  font-size: 1.8rem;
+}
+
+.description i {
+  vertical-align: middle;
+}
+
+.description .caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.likes i {
+  cursor: pointer;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .gallery-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .gallery-images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .gallery-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

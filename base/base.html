@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+  <link rel="stylesheet" href="utilities.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>base</title>
+</head>
+<body class="bg-light">
+  <div class="outerwrap">
+    <span id="top"></span>
+    <nav>
+      <div class="container">
+        <i class="fas fa-bars py1" id="toggle" onclick="
+          w3.toggleClass('#toggle', 'fas fa-bars', 'fas fa-times');
+          w3.toggleFlex('#navbar')">
+        </i>
+  
+        <div id="navbar">
+          <div class="menu">
+            <a href="" class="menu-item current"><i class="fas fa-home"></i> صفحه اصلی</a>
+            <a href="" class="menu-item"><i class="fas fa-sign-in-alt"></i> ورود</a>
+            <a href="" class="menu-item"><i class="fas fa-user-plus"></i> ثبت نام</a>
+          </div>
+          <h1 class="logo"><a href="home.html">بوفه <i class="fas fa-utensils"></i></a></h1>
+        </div>    
+      </div>
+    </nav>
+
+    <div class="innerwrap">
+      <main>
+      </main>
+  
+      <footer>
+        <div class="copy container">
+          <h2 class="py3">بوفه &copy; ۲۰۲۱</h2>
+          <hr>
+        </div>
+  
+        <div class="container footer-items py3">
+          <div class="footer-links">
+            <a href="#" class="footer-link p1"><i class="fas fa-balance-scale"></i> قوانین و مقررات</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-question-circle"></i> سوالات متداول</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-phone"></i> تماس با ما</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-info-circle"></i> درباره ما</a>
+            <a href="#" class="footer-link p1"><i class="fas fa-blog"></i> بلاگ</a>
+          </div>
+  
+          <div class="socila-media">
+            <a href="#" class="p1"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="p1"><i class="fab fa-telegram fa-2x"></i></a>
+
+            <div class="dl-links">
+              <a href=""><img src="../images and videos/apps/label-app-android.png" alt=""></a>
+              <a href=""><img src="../images and videos/apps/label-app-ios-sibche.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <a href="#top" id="back-to-top"><i class="fas fa-chevron-up fa-2x"></i></a>
+      </footer>  
+    </div>
+  </div>
+
+  <script src="base.js"></script>
+</body>
+</html>
